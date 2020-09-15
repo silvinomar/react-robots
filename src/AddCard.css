@@ -1,0 +1,65 @@
+.addCardPanel{
+    position: absolute;
+    bottom: -64px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.hidden .addInput{
+    display: none;
+}
+
+.addInput input[type="text"]{
+    width:250px;
+    display: block;
+}
+
+.show .addInput{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 6rem;
+    position: relative;
+    top: 0;
+    max-width: 600px
+}
+
+.show .addCardPanel, header .robot-card{
+    width: 75%;
+    max-width: 600px;
+    position: relative;
+    bottom: unset;
+    left: 50%;
+    transform: translate(-50%,35px);
+}
+
+.robot-card h2{
+    width:200px;
+}
+
+.show .addCardPanel > button{
+    margin:auto;
+    position: relative;
+    bottom:-140px
+}
+
+.hidden .robot-card{
+    display: none;
+}
+
+.addCardPanel  > button{
+    display: block;
+    width: 100%;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    height:100%;
+    width: 120px;
+    height: 45px;
+}
+
+.hidden .robot-card{
+    display: none;
+}
