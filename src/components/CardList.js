@@ -1,9 +1,9 @@
 import React from 'react';
-import Card from './Card';
+import Card from '../components/Card';
 
 const CardList = ( { robots } ) => {
     return (
-        <div className='d-flex flex-wrap justify-content-around bg-dark p-5 mt-4'>
+        <div className='d-flex flex-wrap justify-content-around bg-dark p-5'>
             { 
             
             robots.map((user,i ) => {
