@@ -66,6 +66,7 @@
 
 .cardList {
     min-height: calc(100vh - 178px);
+    align-content: baseline;
 }
 
 .robot-card:hover{
