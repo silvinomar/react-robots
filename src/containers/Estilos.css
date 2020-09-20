@@ -63,3 +63,13 @@
 .hidden .robot-card{
     display: none;
 }
+
+.cardList {
+    min-height: calc(100vh - 178px);
+}
+
+.robot-card:hover{
+        cursor: not-allowed;
+    transform:scale(1.1) perspective(300px);
+
+}

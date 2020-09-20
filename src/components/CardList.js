@@ -3,7 +3,7 @@ import Card from '../components/Card';
 
 const CardList = ( { robots } ) => {
     return (
-        <div className='d-flex flex-wrap justify-content-around bg-dark p-5'>
+        <div className='cardList d-flex flex-wrap justify-content-around bg-dark p-5'>
             { 
             
             robots.map((user,i ) => {
