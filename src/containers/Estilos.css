@@ -4,16 +4,13 @@
     left: 50%;
     transform: translate(-50%,0);
 }
-
 .hidden .addInput{
     display: none;
 }
-
 .addInput input[type="text"]{
     width:250px;
     display: block;
 }
-
 .show .addInput{
     display: flex;
     flex-wrap: wrap;
@@ -22,9 +19,8 @@
     margin-bottom: 6rem;
     position: relative;
     top: 0;
-    max-width: 600px
+    max-width: 600px 
 }
-
 .show .addCardPanel, header .robot-card{
     width: 75%;
     max-width: 600px;
@@ -33,22 +29,18 @@
     left: 50%;
     transform: translate(-50%,35px);
 }
-
 .robot-card h2{
     width:200px;
 }
-
 .show .addCardPanel > button{
     margin:auto;
     position: relative;
-    bottom:-140px
+    bottom:-140px 
 }
-
 .hidden .robot-card{
     display: none;
 }
-
-.addCardPanel  > button{
+.addCardPanel > button{
     display: block;
     width: 100%;
     background: white;
@@ -59,18 +51,14 @@
     width: 120px;
     height: 45px;
 }
-
 .hidden .robot-card{
     display: none;
 }
-
 .cardList {
     min-height: calc(100vh - 178px);
     align-content: baseline;
 }
-
 .robot-card:hover{
-        cursor: not-allowed;
+    cursor: not-allowed;
     transform:scale(1.1) perspective(300px);
-
 }
